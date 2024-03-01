@@ -1,0 +1,68 @@
+.logoAndDomain {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.historyContentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+
+.delete_icon {
+  height: 25px;
+  align-self: center;
+}
+
+.time {
+  color: #64748b;
+  font-weight: 600;
+}
+
+.title {
+  color: #475569;
+  font-weight: bold;
+  margin: 0px;
+}
+.domain_name {
+  color: #64748b;
+}
+li {
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 0px;
+}
+
+button {
+  border: 0px none;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .title-domainUrl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .title {
+    margin-right: 20px;
+  }
+  li {
+    justify-content: space-between;
+  }
+  .time {
+    margin-right: 30px;
+  }
+  button {
+    align-self: flex-end;
+  }
+}
